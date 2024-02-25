@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#63C1EC"
+    tools:context=".MainActivity">
+
+    <com.example.animation.PathView
+        android:id="@+id/pathView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/ball"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="0dp"
+        android:src="@drawable/ball" />
+
+</RelativeLayout>
